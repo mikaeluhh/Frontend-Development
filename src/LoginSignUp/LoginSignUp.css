@@ -216,6 +216,15 @@
 
   .paragraph{
     font-size: 12px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+
+  }
+
+  .paragraph2{
+    font-size: 12px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.5px;
@@ -223,12 +232,12 @@
   }
 
   .glass-morph-container{
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 15px; 
-    border: 2px solid transparent;
+    border: 2.3px solid transparent;
     padding: 25px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.02);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     width: 320px;
     height: 380px;
     flex-direction: column;

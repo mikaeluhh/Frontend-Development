@@ -8,7 +8,7 @@ const LoginSignUp = () => {
         <div className="form-container  sign-up-container">
           <form>
             <h1>Create Account</h1>
-            <div className = "paragraph">
+            <div className = "paragraph2">
                 Enter your complete details to register
             </div>
             <input type="fName" placeholder="First Name" />
@@ -22,7 +22,7 @@ const LoginSignUp = () => {
         <div className="form-container sign-in-container">
           <form>
             <h1>Login</h1>
-            <div className = "paragraph">
+            <div className = "paragraph2">
                 Enter your complete details
             </div>
             <input type="email" placeholder="Email Address" />
