@@ -12,8 +12,7 @@ function Navbar() {
             <Link className='menuItem'>About</Link>
             <Link className='menuItem'>Scan</Link>
             <Link className='menuItem'>History</Link>
-            <Link className='menuItem'>Contact</Link>
-            <Link className='menuItem'>Login</Link>
+            <Link className='menuItem'>Profile</Link>
         </div>
 
     </nav>
