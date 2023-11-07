@@ -11,7 +11,7 @@ function Navbar() {
             <Link className='menuItem'>Home</Link>
             <Link className='menuItem'>About</Link>
             <Link className='menuItem'>Scan</Link>
-            <Link className='menuItem'>History</Link>
+            <Link to="history-section" className='menuItem' smooth={true} duration={500}>History</Link>
             <Link className='menuItem'>Contact</Link>
             <Link className='menuItem'>Login</Link>
         </div>
