@@ -1,0 +1,96 @@
+/* Resetting default browser styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light background color */
+  }
+  
+  /* Container for the content */
+  .container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 0 5px 50px 5px;
+    background-image: url('../../assets/bg-history.png'); /* Background image for the content */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image in the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Title styling */
+  .history-title {
+    text-align: left;
+    color: #049B04; /* Dark color for better readability */
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 20px 0 20px 20px; /* Space around the title */
+  }
+  
+  /* Card container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+  }
+  
+  /* Card styling */
+  .card {
+    flex-basis: calc(25% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+  
+  .results-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  .results-btn:hover {
+    background-color: darkgreen; /* Darker green on hover for the button */
+  }
+  
+  /* Scan title within the card */
+  .scan-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255)afa; /* Dark color for text */
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .card {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
+  

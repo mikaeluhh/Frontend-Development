@@ -10,20 +10,14 @@ export default function Upload() {
   const [fileName, setFileName] = useState("No selected file")  
   return (
     <main>
-        <imageform 
-        onClick ={() => document.querySelector(".input-field").click()}
-        >
+        <imageform onClick ={() => document.querySelector(".input-field").click()}>
             <input type="file" accept='image/*' className='input-field' hidden 
             onChange={({ target: {files}}) => {
                 files[0] && setFileName(files[0].name)
                 if(files) {
                     setImage(URL.createObjectURL(files[0]))
                 }
-            }}
-            
-            
-            
-            />
+            }}/>
 
             {image ?
             <img src={image} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} alt={fileName} />
@@ -32,8 +26,6 @@ export default function Upload() {
             <MdCloudUpload color='#1475cf' size={60}/>
             <p>Upload an image</p>
             </>
-            
-        
         }
         </imageform>
 
